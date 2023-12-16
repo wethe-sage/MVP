@@ -1,0 +1,65 @@
+import { ACCOUNT_TYPE } from "../utils/constants";
+export const sidebarLinks = [
+  {
+    id: 1,
+    name: "My Profile",
+    path: "/dashboard/my-profile",
+    icon: "VscAccount",
+  },
+  {
+    id: 2,
+    name: "Dashboard",
+    path: "/dashboard/influencer-dashboard",
+    type: ACCOUNT_TYPE.INFLUENCER,
+    icon: "VscDashboard",
+  },
+  {
+    id: 3,
+    name: "My Listings",
+    path: "/dashboard/my-listings",
+    type: ACCOUNT_TYPE.INFLUENCER,
+    icon: "VscListUnordered",
+  },
+  {
+    id: 4,
+    name: "Add Listing",
+    path: "/dashboard/add-listing",
+    type: ACCOUNT_TYPE.INFLUENCER,
+    icon: "VscAdd",
+  },
+  {
+    id: 5,
+    name: "Booked Listing",
+    path: "/dashboard/booked-listing",
+    type: ACCOUNT_TYPE.USER,
+    icon: "VscMortarBoard",
+  },
+  {
+    id: 6,
+    name: "Purchase History",
+    path: "/dashboard/purchase-history",
+    type: ACCOUNT_TYPE.USER,
+    icon: "VscHistory",
+  },
+  {
+    id: 7,
+    name: "Dashboard",
+    path: "/dashboard/hotel-dashboard",
+    type: ACCOUNT_TYPE.HOTEL,
+    icon: "VscDashboard",
+  },
+  {
+    id: 8,
+    name: "My Listings",
+    path: "/dashboard/my-listing",
+    type: ACCOUNT_TYPE.HOTEL,
+    icon: "VscVm",
+  },
+  {
+    id: 9,
+    name: "Add Listing",
+    path: "/dashboard/add-listing",
+    type: ACCOUNT_TYPE.HOTEL,
+    icon: "VscAdd",
+  },
+];
